@@ -1,0 +1,208 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+/*Diviser l'écran en deux parties*/
+.container{
+	display: grid;
+	grid-template-columns:24% auto;
+	grid-auto-flow: dense;
+	height: 100vh;
+	width: 100vw;
+}
+.colon1{
+	background-color:#1f2d32;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	
+}
+.colon2{
+	background-color:#233238;
+	padding: 20px;
+}
+
+/* Les styles de la colonne 1*/
+.colon1 h1{
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size:30px;
+	font-weight: normal;
+}
+.colon1 .color{
+	color: #c3e88d;
+}
+.colon1 .couleur:hover{
+	color:#ffcb6b;
+}
+.sephora{
+	width: 210px;
+	height: 210px;
+	border-radius: 50%;
+}
+ .colon1 ul{
+	display: flex;
+	text-decoration: none;
+	list-style: none;
+}	
+.colon1 ul li  a{
+	padding-left: 10px;
+	padding-right: 5px;	
+}
+.colon1 .image{
+	width: 40px;
+	height: 40px;	
+}
+.colon1 .lien-ligne{
+	text-decoration: none;
+}
+.back:hover{
+	border-radius: 50%;
+	padding: 5px;
+}
+.twitter-background:hover {
+	background-color: skyblue;
+}
+.instagramme-background:hover {
+	background-color: SlateBlue;
+}
+.git-background:hover {
+	background-color: darkgray;
+}
+.linkedin-background:hover {
+	background-color: SteelBlue;
+}
+.codepen-background:hover {
+	background-color:black;
+}
+.colon1 p{
+	font-size: 13px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 25px;
+}
+
+/* Les styles de la colonne 1*/
+.colon2 a{
+	text-decoration: none;
+	color: white;
+}
+.colon2 a:hover{
+	color: chartreuse;
+} 
+.colon2 .lien{
+	
+	display: flex;
+	justify-content: flex-end;
+	gap: 30px;
+	font-family:'Yanone Kaffeesatz', sans-serif;
+	font-size: 1.2em;
+	margin-right: 100px;
+
+}
+.Petitparagramme p{
+	font-family:'Yanone Kaffeesatz', sans-serif;
+}
+.colon2 .Petitparagramme{
+	margin-top: 75px;
+	text-align: center;
+
+}
+
+.Petitparagramme .ligne1{
+	font-size: 3em;
+	color:blueviolet;
+}
+.Petitparagramme span{
+	color:red;
+}
+
+.Petitparagramme .ligne2 ,.Petitparagramme .ligne3 {
+	font-size: 1.8em;
+}
+
+.Petitparagramme .ligne3{
+	color:forestgreen;
+}
+.Petitparagramme .ligne2 {
+	color: white;
+}
+
+.colon2 .colon2_content{
+	display: grid;
+	grid-template-rows: 50px  450px;
+	margin: 85px;
+	
+}
+
+.colon2 .element1{
+	background-color:cadetblue;
+	border-radius: 10px 10px 0 0;
+	display: grid;
+	grid-template-columns: 50px  auto;
+}
+.colon2 .element2{
+	background-color:gray;
+	border-radius: 0 0 10px 10px;
+	font-family: 'JetBrains Mono', monospace;
+	font-size: 15px;
+}
+
+.element1 .col1{
+	display: grid;
+	grid-template-columns: 10px 10px 10px;
+	grid-template-rows: 10px;
+	justify-content: space-around;
+	margin-top: 15px;
+}
+.element1 .bloc{
+	border-radius: 50px;
+}
+
+.element1 .bloc1{
+	background-color: red;
+}
+
+.element1 .bloc2{
+	background-color:yellow;
+}
+
+.element1 .bloc3{
+	background-color:green;
+}
+
+.element1 .col2{
+	
+	font-size: 20px;
+	color: white;
+	margin-top: 15px;
+	text-align: center;
+}
+
+.element2 .titre{
+	color: darkslateblue;	
+	
+}
+
+.element2 span{
+	color: chartreuse;
+}
+
+.element2 p{
+	margin-left: 15px;
+}
+
+.element2 .ligne{
+	margin-left: 30px;
+}
+
+.element2 .accolade{
+	color: white;
+}
+
+.element2 .bloc{
+	margin: 15px;
+} 
